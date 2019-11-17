@@ -23,6 +23,7 @@ namespace Steganografia
 {
     class Steganography
     {
+        public static int NumberOfRedBits, NumberOfGreenBits, NumberOfBlueBits;
         public enum State
         {
             Hiding,
